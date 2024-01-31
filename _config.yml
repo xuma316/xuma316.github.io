@@ -25,7 +25,7 @@ url                      : "https://xuma316.github.io" # the base hostname & pro
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : xuma316/xuma316.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/xuma.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/official/xuma.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -91,12 +91,12 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Organization # Person or Organization (defaults to Person)
-  name                   : XUMA小登登 # If the user or organization name differs from the site's name
+  name                   : XUMA # If the user or organization name differs from the site's name
   links                  : https://www.xiaohongshu.com/user/profile/5cd438ab0000000011031977 # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
@@ -105,9 +105,9 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "/assets/images/xuma.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/official/xuma.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  location         : "Xiamen"
   email            :
   links:
     - label: "Email"
@@ -115,7 +115,10 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "http://www.xuma.cn/bbs/forum.php"
+    - label: "Red"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.xiaohongshu.com/user/profile/5cd438ab0000000011031977"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
