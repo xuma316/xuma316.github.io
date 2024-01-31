@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : &title "厦大登协"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : &name "XUMA"
-description              : &description "An amazing website."
+description              : &description "欢迎来到厦门大学登山协会"
 url                      : "https://xuma316.github.io" # the base hostname & protocol for your site e.g. 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : xuma316/xuma316.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,10 +113,10 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
+    - label: "论坛"
       icon: "fas fa-fw fa-link"
       url: "http://www.xuma.cn/bbs/forum.php"
-    - label: "Red"
+    - label: "小红书"
       icon: "fas fa-fw fa-link"
       url: "https://www.xiaohongshu.com/user/profile/5cd438ab0000000011031977"
     - label: "Twitter"
