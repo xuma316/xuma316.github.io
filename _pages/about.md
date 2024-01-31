@@ -1,5 +1,5 @@
 ---
-layout: archive # splash / single / archive
+layout: single # splash / single / archive
 permalink: /about/
 title: "协会介绍"
 header:
@@ -19,12 +19,10 @@ header:
 excerpt: >
   欢迎来到厦大登协！厦门大学学生登山协会成立于2002年3月16日，是中国南方第一个以穿越、徒步、攀岩、定向越野、骑行等户外运动为主体活动的学生社团... <br />
   <small><a href="http://www.xuma.cn/bbs/forum.php">Learn More</a></small> 
-
 last_modified_at: 2022-05-27T11:59:26-04:00
-
 toc: true                 # 是否显示右边的导航栏
 author_profile: false     # 是否显示左侧的用户头像
-navigation: false         # 是否显示顶部的导航栏
+navigation: true         # 是否显示顶部的导航栏
 ---
 
 ---
