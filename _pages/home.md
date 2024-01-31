@@ -4,11 +4,11 @@ permalink: /
 hidden: false # display this in the navigation bar
 header:
   # overlay_color: "#5e616c"
-  # overlay_image: /assets/images/mm-home-page-feature.jpg
+  # overlay_image: /assets/images/mont/mm-home-page-feature.jpg
   video:
     id: BV1WE411V7Dk
     provider: bilibili
-    danmaku: 1 # 是否开启弹幕 1 or 0
+    danmaku: 0 # 是否开启弹幕 1 or 0
   actions:
     - label: "<i class='fas fa-fw fa-link'></i> 进入论坛"
       url: "http://www.xuma.cn/bbs/forum.php/"
@@ -21,23 +21,23 @@ excerpt: >
   <small><a href="http://www.xuma.cn/bbs/forum.php">Learn More</a></small> 
 
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/mont/top.jpg
     alt: "customizable"
-    title: "Super customizable"
+    title: "初恋启孜"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /assets/images/mont/show.jpg
     alt: "fully responsive"
-    title: "Responsive layouts"
+    title: "圆梦唐拉昂曲"
     excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /assets/images/mont/冲顶.jpg
     alt: "100% free"
-    title: "100% free"
+    title: "格拉丹东峰"
     excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
     url: "/docs/license/"
     btn_class: "btn--primary"
