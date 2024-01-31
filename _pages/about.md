@@ -1,11 +1,14 @@
 ---
-layout: splash # splash / single / archive
+layout: archive # splash / single / archive
 permalink: /about/
 title: "协会介绍"
 header:
   # overlay_color: "#5e616c"
-  overlay_filter: rgba(0, 0, 0, 0.1)
-  overlay_image: /assets/images/mont/c1.jpg
+  # overlay_image: /assets/images/mont/mm-home-page-feature.jpg
+  video:
+    id: BV1WE411V7Dk
+    provider: bilibili
+    danmaku: 0 # 是否开启弹幕 1 or 0
   actions:
     - label: "<i class='fas fa-fw fa-link'></i> 进入论坛"
       url: "http://www.xuma.cn/bbs/forum.php/"
@@ -16,7 +19,7 @@ header:
 excerpt: >
   欢迎来到厦大登协！厦门大学学生登山协会成立于2002年3月16日，是中国南方第一个以穿越、徒步、攀岩、定向越野、骑行等户外运动为主体活动的学生社团... <br />
   <small><a href="http://www.xuma.cn/bbs/forum.php">Learn More</a></small> 
-  <br><br><br><br><br><br><br><br><br><br>
+
 last_modified_at: 2022-05-27T11:59:26-04:00
 
 toc: true                 # 是否显示右边的导航栏
