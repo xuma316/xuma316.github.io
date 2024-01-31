@@ -13,7 +13,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : &title "厦大登协"
 title_separator          : "-"
-subtitle                 : "主页"
+subtitle                 : # "主页"
 name                     : &name "XUMA" # &name is a YAML anchor which can be *referenced later
 description              : &description "欢迎来到厦大登协"
 url                      : https://xuma316.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
