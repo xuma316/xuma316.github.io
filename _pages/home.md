@@ -1,16 +1,18 @@
 ---
 layout: splash
 permalink: /
-# hidden: true
+hidden: false # display this in the navigation bar
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
+    - label: "<i class='fas fa-fw fa-link'></i> 进入论坛"
       url: "/docs/quick-start-guide/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+  厦门大学学生登山协会成立于2002年3月16日，是中国南方第一个以穿越、徒步、攀岩、定向越野、骑行等户外运动为主体活动的学生社团。协会秉承厦门大学“自强不息，止于至善”的校训，以“贴近自然、挑战自我”为理念稳步发展，已连续多年获得厦门大学“十佳社团”称号。协会一贯坚持理性、安全的登山理念，登山要达到的，不仅是实际的海拔高度，更重要的是心灵的高度；坚持“除了脚印什么都不留下，除了照片什么都不带走”的环保原则，我们贴近自然但不破坏自然；坚持用行动来证明：厦大浪漫、温馨，但决不安逸。<br />
+  <small><a href="http://www.xuma.cn/bbs/forum.php">论坛 </a></small> 
+  <small><a href="https://www.xiaohongshu.com/user/profile/5cd438ab0000000011031977">小红书 </a></small> 
+  <small><a href="https://weibo.com/kaija?from=page_100505_profile&wvr=6&mod=like">微博 </a></small>
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"

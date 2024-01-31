@@ -20,6 +20,8 @@ foo:
 
 # main links
 main:
+  - title: "论坛"
+    url: http://www.xuma.cn/bbs/forum.php
   - title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
   - title: "About"
@@ -30,13 +32,6 @@ main:
     url: /collection-archive/
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
-  - title: "Parent Link 1"
-    url: /parent-1-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
 
 # documentation links
 docs:
