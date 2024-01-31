@@ -22,10 +22,10 @@ foo:
 main:
   - title: "论坛"
     url: http://www.xuma.cn/bbs/forum.php
+  - title: "介绍"
+    url: /about/
   - title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
-  - title: "About"
-    url: /about/
   - title: "Sample Posts"
     url: /year-archive/
   - title: "Sample Collections"

@@ -1,21 +1,28 @@
 ---
+# layout: splash
 permalink: /about/
-title: "介绍"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
-layouts_gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
-    alt: "splash layout example"
-  - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive.png
-    alt: "archive layout example"
+title: "协会介绍"
+header:
+  # overlay_color: "#5e616c"
+  overlay_filter: rgba(0, 0, 0, 0.1)
+  overlay_image: /assets/images/mont/c1.jpg
+  actions:
+    - label: "<i class='fas fa-fw fa-link'></i> 进入论坛"
+      url: "http://www.xuma.cn/bbs/forum.php/"
+    - label: "<i class='fas fa-fw fa-link'></i> 小红书"
+      url: "https://www.xiaohongshu.com/user/profile/5cd438ab0000000011031977"
+    - label: "<i class='fas fa-fw fa-link'></i> 微博"
+      url: "https://weibo.com/kaija?from=page_100505_profile&wvr=6&mod=like"
+excerpt: >
+  欢迎来到厦大登协！厦门大学学生登山协会成立于2002年3月16日，是中国南方第一个以穿越、徒步、攀岩、定向越野、骑行等户外运动为主体活动的学生社团... <br />
+  <small><a href="http://www.xuma.cn/bbs/forum.php">Learn More</a></small> 
 last_modified_at: 2022-05-27T11:59:26-04:00
-toc: true
+toc: true                 # 是否显示右边的导航栏
+author_profile: false     # 是否显示左侧的用户头像
+navigation: false         # 是否显示顶部的导航栏
 ---
 
+---
 厦门大学登山协会成立于2002年3月16日，是中国南方首家高校登山社团，也是中国影响力最广泛的大学生户外社团之一，活动覆盖登山、攀岩、骑行、徒步、溯溪、定向越野、野外生存等。
 
 自成立以来，厦大登协已连续16年获得厦门大学“十佳社团”称号（2019.06.03）。协会一贯坚持理性、安全的登山理念，登山要达到的，不仅是实际的海拔高度，更重要的是心灵的高度。我们的宗旨是：厦大浪漫、温馨，但决不安逸；我们攀登、探险，但绝不冒险。
@@ -42,9 +49,9 @@ toc: true
 
 协会旗下队伍：登山队、南强骑行队、攀岩队等
 
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
+<!-- {% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %} -->
 
-[Install the Theme]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
+<!-- [Install the Theme]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large} -->
 
 ## 徐妈来源
 也许你会疑惑，为什么叫XUMA（徐妈）呢？记住啦~协会的中文名叫厦门大学登山协会，英文名叫Xiamen University Mountaineering Association。据说很久很久以前，有位老鹰穿着印有“XUMA”字样的会服走过，身后一小孩突然脱口而出大唤“徐妈”，说者无心，但“徐妈”二字却也很贴切，时间久了，相信小鹰们也会慢慢感受到徐妈带给我们的家一样的温暖。因此协会人也经常自称XUMAr。
@@ -67,6 +74,7 @@ toc: true
   - 攀岩组：组织日常攀岩活动，保证攀岩安全与秩序，承担技术传承的责任；
   - 定向组：组织日常定向活动，传承定向越野技术；
   - 野外组：整体规划外出活动，并负责每次活动的具体实施, 普及相关野外知识，保证野外活动意识、技术、纪律的传承和贯彻。
+
 ## 协会创始
 
 ## 发展历史
