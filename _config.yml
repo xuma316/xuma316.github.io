@@ -14,7 +14,7 @@ locale                   : "zh-CN" # "en-US"
 title                    : &title ""
 title_separator          : "-"
 subtitle                 : # "XUMA"
-name                     : &name "XUMA" # &name is a YAML anchor which can be *referenced later
+name                     : &name "厦门大学登山协会" # &name is a YAML anchor which can be *referenced later
 description              : &description "欢迎来到厦大登协"
 url                      : https://xuma316.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
