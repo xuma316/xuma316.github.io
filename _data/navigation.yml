@@ -22,7 +22,7 @@ foo:
 main:
   - title: "关于我们"
     url: /about/
-  - title: "协会论坛"
+  - title: "论坛"
     url: http://www.xuma.cn/bbs/forum.php
     children:
       - title: "登山角"
@@ -33,10 +33,12 @@ main:
         url: http://www.xuma.cn/bbs/forum.php?gid=59
       - title: "协会管理"
         url: http://www.xuma.cn/bbs/forum.php?gid=39
-  - title: "活动计划"
-    url: /collection-archive/
-  - title: "联系我们"
-    url: /collection/
+  - title: "协会队伍"
+    children:
+      - title: "登山队"
+        url: /child-1-page-url/
+      - title: "南强骑行队"
+        url: /child-1-page-url/
   - title: "XUMA分舵"
     children:
       - title: "厦门"
@@ -51,16 +53,25 @@ main:
         url: /child-5-page-url/
       - title: "海外"
         url: /child-6-page-url/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/  
-  - title: "Terms &amp; Privacy Policy"
+  - title: "相关下载"
     url: /terms/
+    children:
+      - title: "登山报告书"
+        url: /child-1-page-url/
+      - title: "骑行报告书"
+        url: /child-1-page-url/
+      - title: "登山报名表"
+        url: /child-1-page-url/
+  - title: "联系我们"
+    url: /collection/
   - title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
   # - title: "Sample Posts"
   #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/  
 
 # documentation links
 docs:
