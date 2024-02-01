@@ -10,10 +10,10 @@ remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN" # "en-US"
 title                    : &title "厦大登协"
 title_separator          : "-"
-subtitle                 : # "主页"
+subtitle                 : "XUMA"
 name                     : &name "XUMA" # &name is a YAML anchor which can be *referenced later
 description              : &description "欢迎来到厦大登协"
 url                      : https://xuma316.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -99,7 +99,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/official/xuma.png"
-  bio              : "Just another *boring*, *tattooed*, *time traveling*, *designer*."
+  bio              : "Xiamen University Mountneering Association (XUMA)"
   location         : "厦门, 福建"
   links:
     - label: "论坛"
@@ -123,10 +123,10 @@ author:
 footer:
   links:
     - label: "体育教学部"
-      icon: "fab fa-fw fa-link"
+      icon: "fas fa-fw fa-link"
       url: "https://tyjxb.xmu.edu.cn/"
     - label: "中国登山协会"
-      icon: "fab fa-fw fa-link"
+      icon: "fas fa-fw fa-link"
       url: "https://www.cmasports.cn/"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
