@@ -53,7 +53,7 @@ main:
       - title: "海外"
         url: /child-6-page-url/
   - title: "相关下载"
-    url: /terms/
+    children:
       - title: "登山报告书"
         url: /terms/
       - title: "骑行报告书"
