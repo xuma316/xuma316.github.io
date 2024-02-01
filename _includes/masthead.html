@@ -20,7 +20,7 @@
             <ul class="dropdown-menu">
               {%- for child in link.children -%}
               <li>
-                <a href="{{ child.url | relative_url }}" {% endif %} {% if link.description %} title="{{ link.description }}" {% endif %}>{{ child.title }}</a>
+                <a {% if link.url %} href="{{ child.url | relative_url }}" {% endif %} {% if link.description %} title="{{ link.description }}" {% endif %}>{{ child.title }}</a>
               </li>
               {%- endfor -%}
             </ul>
