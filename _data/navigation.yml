@@ -28,13 +28,20 @@ main:
     url: /collection-archive/
   - title: "联系我们"
     url: /collection/
-  - title: "联系我们"
-    url: /collection/
+  - title: "XUMA分舵"
     children:
-      - title: "Child Link 1"
+      - title: "厦门"
         url: /child-1-page-url/
-      - title: "Child Link 2"
+      - title: "上海"
         url: /child-2-page-url/
+      - title: "北京"
+        url: /child-3-page-url/
+      - title: "广州"
+        url: /child-4-page-url/
+      - title: "深圳"
+        url: /child-5-page-url/
+      - title: "海外"
+        url: /child-6-page-url/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sample Collections"
