@@ -94,8 +94,8 @@
 
   // Styles for the dropdown menu
   &:hover .dropdown-menu {
-    display: block; // Show the dropdown menu on hover
-    transition: visibility 0.5s, opacity 0.5s linear;
+    // display: block; // Show the dropdown menu on hover
+    transition: visibility 0.3s, opacity 0.3s linear;
     visibility: visible; // 用 visibility 替代 display 来控制显示
     opacity: 1;
   }
@@ -108,10 +108,10 @@
 
 // Define the dropdown menu hidden state
 .dropdown-menu {
-  display: none; // Hide by default
+  // display: none; // Hide by default
   visibility: hidden; // 开始时不可见
   opacity: 0; // 开始时透明
-  transition: visibility 0.5s, opacity 0.5s linear;
+  transition: visibility 0.3s, opacity 0.3s linear;
   position: absolute;
   // left: 0;
   top: 100%; // Position the dropdown right below the nav-item

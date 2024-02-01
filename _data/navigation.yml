@@ -24,6 +24,15 @@ main:
     url: /about/
   - title: "协会论坛"
     url: http://www.xuma.cn/bbs/forum.php
+    children:
+      - title: "登山角"
+        url: http://www.xuma.cn/bbs/forum.php?gid=81
+      - title: "户外大厅"
+        url: http://www.xuma.cn/bbs/forum.php?gid=38
+      - title: "雪山专区"
+        url: http://www.xuma.cn/bbs/forum.php?gid=59
+      - title: "协会管理"
+        url: http://www.xuma.cn/bbs/forum.php?gid=39
   - title: "活动计划"
     url: /collection-archive/
   - title: "联系我们"
