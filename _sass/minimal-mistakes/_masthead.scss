@@ -86,8 +86,46 @@
   list-style-type: none;
   white-space: nowrap;
 
+  // Add your dropdown toggle class if needed
+  & > a {
+    position: relative; // Set up for absolute positioning of child elements
+    display: inline-block; // Change if needed for your layout
+  }
+
+  // Styles for the dropdown menu
+  &:hover .dropdown-menu {
+    display: block; // Show the dropdown menu on hover
+  }
+
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+  }
+}
+
+// Define the dropdown menu hidden state
+.dropdown-menu {
+  display: none; // Hide by default
+  position: absolute;
+  left: 0;
+  top: 100%; // Position the dropdown right below the nav-item
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1000; // Ensure it's on top of other elements
+  border: 1px solid $border-color; // Use the variable already defined for border color
+  
+  // Style your dropdown links here
+  a {
+    padding: 0.5em 1em;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    color: $text-color; // Use your variable for text color
+    
+    &:hover {
+      background-color: $light-gray; // Use your variable for a hover background color
+    }
   }
 }
