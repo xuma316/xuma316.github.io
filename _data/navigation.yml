@@ -23,7 +23,6 @@ main:
   - title: "关于我们"
     url: /about/
   - title: "论坛"
-    url: http://www.xuma.cn/bbs/forum.php
     children:
       - title: "登山角"
         url: http://www.xuma.cn/bbs/forum.php?gid=81
@@ -55,9 +54,8 @@ main:
         url: /child-6-page-url/
   - title: "相关下载"
     url: /terms/
-    children:
       - title: "登山报告书"
-        url: /child-1-page-url/
+        url: /terms/
       - title: "骑行报告书"
         url: /child-1-page-url/
       - title: "登山报名表"
